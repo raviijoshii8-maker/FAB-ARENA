@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>ARIANA · abyss relics · drowned monologue</title>
+  <title>FAB-ARENA · abyss relics · drowned monologue</title>
   <!-- Typography: aqueous serif + deep-sea sans -->
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -689,12 +689,12 @@
 </head>
 <body>
 
-<!-- entry modal: ARIANA invitation -->
+<!-- entry modal: FAB-ARENA invitation -->
 <div id="entryModalAbyss" class="modal-abyss">
   <div class="modal-abyss-block">
     <button id="closeAbyssModal" class="modal-abyss-close"><i class="fas fa-water"></i></button>
     <div class="modal-abyss-icon"><i class="fas fa-fish-fins"></i></div>
-    <h2 class="modal-abyss-title">ARIANA</h2>
+    <h2 class="modal-abyss-title">FAB-ARENA</h2>
     <p class="modal-abyss-desc">Abyss relics · drowned silks · brine-worn artifacts. Garments reclaimed from the deep and whispered by the tide.</p>
     <div class="modal-abyss-buttons">
       <button id="enterAbyssBtn" class="btn-abyss-primary">🌊 DESCEND TO THE DEEP</button>
@@ -705,7 +705,7 @@
 
 <header class="abyss-header">
   <div class="nav-abyss">
-    <div class="brand-abyss">ARIANA<small>· ABYSS</small></div>
+    <div class="brand-abyss">FAB-ARENA<small>· ABYSS</small></div>
     <nav class="nav-abyss-links">
       <a href="#shopAbyss">DROWNED VAULT</a>
       <a href="#shopAbyss">BRINE RELICS</a>
@@ -726,7 +726,7 @@
   <section class="hero-abyss">
     <div class="hero-abyss-content">
       <div class="hero-abyss-badge">DROWNED RELICS · BRINE-WORN · ABYSSAL SILKS</div>
-      <h1 class="hero-abyss-title">ARIANA</h1>
+      <h1 class="hero-abyss-title">FAB-ARENA</h1>
       <div class="hero-abyss-offer">first descent: <strong>15% off</strong> your first drowned artifact</div>
       <a href="#shopAbyss" class="btn-abyss">DESCEND TO THE DEEP →</a>
     </div>
@@ -742,9 +742,9 @@
 
 <footer>
   <div class="footer-abyss">
-    <div class="footer-abyss-brand">ARIANA</div>
+    <div class="footer-abyss-brand">FAB-ARENA</div>
     <div class="footer-abyss-regions">DROWNED VAULT · BRINE RELICS · ABYSSAL ARMORY</div>
-    <p style="font-size:0.55rem; opacity:0.7;">© 2026 ARIANA — reclaimed from the deep and whispered by the tide.</p>
+    <p style="font-size:0.55rem; opacity:0.7;">© 2026 FAB-ARENA — reclaimed from the deep and whispered by the tide.</p>
   </div>
 </footer>
 
@@ -766,7 +766,7 @@
 </div>
 
 <script>
-  // ARIANA product catalog — abyss & brine theme
+  // FAB-ARENA product catalog — abyss & brine theme
   const abyssProducts = [
     { id: 7701, name: "Drowned Cloak", category: "ABYSSAL", original: 899, price: 764, img: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?q=80&w=687&auto=format&fit=crop", alt: "cloak" },
     { id: 7702, name: "Brine Tunic", category: "DROWNED", original: 348, price: 295, img: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=687&auto=format&fit=crop", alt: "tunic" },
@@ -778,7 +778,7 @@
     { id: 7708, name: "Abyssal Coat", category: "COAT", original: 1455, price: 1236, img: "https://images.unsplash.com/photo-1598032895397-b9472444bf93?q=80&w=2070&auto=format&fit=crop", alt: "coat" },
     { id: 7709, name: "Silt Cargo", category: "BOTTOMS", original: 565, price: 480, img: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=600&auto=format&fit=crop", alt: "cargo" },
     { id: 7710, name: "Drowned Hood", category: "HOODIE", original: 370, price: 314, img: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=764&auto=format&fit=crop", alt: "hoodie" },
-    { id: 7711, name: "Mariana Duster", category: "OUTER", original: 1870, price: 1589, img: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=688&auto=format&fit=crop", alt: "duster" },
+    { id: 7711, name: "MFAB-ARENA Duster", category: "OUTER", original: 1870, price: 1589, img: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?q=80&w=688&auto=format&fit=crop", alt: "duster" },
     { id: 7712, name: "Brine Shacket", category: "SHIRT", original: 675, price: 573, img: "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?q=80&w=687&auto=format&fit=crop", alt: "shacket" }
   ];
 
@@ -909,7 +909,7 @@
   cartAbyssIcon?.addEventListener('click',()=>cartOverlayAbyssDiv.classList.add('active'));
   closeCartAbyssBtn?.addEventListener('click',()=>cartOverlayAbyssDiv.classList.remove('active'));
   cartOverlayAbyssDiv?.addEventListener('click',(e)=>{ if(e.target===cartOverlayAbyssDiv) cartOverlayAbyssDiv.classList.remove('active'); });
-  document.getElementById('checkoutAbyssBtn')?.addEventListener('click',()=>{ alert('ARIANA seals your drowned offering. Your abyssal relics are bound in brine and ancient tide.'); cartAbyss=[]; renderAbyssCart(); cartOverlayAbyssDiv.classList.remove('active'); });
+  document.getElementById('checkoutAbyssBtn')?.addEventListener('click',()=>{ alert('FAB-ARENA seals your drowned offering. Your abyssal relics are bound in brine and ancient tide.'); cartAbyss=[]; renderAbyssCart(); cartOverlayAbyssDiv.classList.remove('active'); });
   document.querySelectorAll('a[href^="#"]').forEach(a=>{ a.addEventListener('click',function(e){ const hash=this.getAttribute('href'); if(hash==="#") return; const sec=document.querySelector(hash); if(sec){ e.preventDefault(); sec.scrollIntoView({behavior:'smooth'}); } }); });
 
   renderAbyssProducts();
